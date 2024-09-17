@@ -1,8 +1,9 @@
 function [VSFj, MTSFj, Lj,R] = VSFs_Nl(ua,ups,n,l,Rad,rho,Nb)
 
-%Analytical computation of the time-independent mean partial pathlengths (MPPLs) of
-%photons in an N-layered semiinfinite optically turbid cylinder. Further
-%details can be found in:
+%Analytical computation of the time-independent mean partial pathlengths (MPPLs), mean time sensitivity factors (MTSFs) 
+% and variance sensitivity factors (VSFs) of photons in an N-layered semiinfinite optically turbid cylinder. 
+% Further details regarding the MPPLs can be found in:
+
 % - http://dx.doi.org/10.1364/BOE.449514
 % - http://dx.doi.org/10.7149/OPA.56.2.51145
 % - http://dx.doi.org/10.1117/12.2670453
